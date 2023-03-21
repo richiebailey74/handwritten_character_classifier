@@ -1,5 +1,4 @@
-from preprocessing import preprocess
-from preprocessing import show
+from business_logic.preprocessing import preprocess, show
 import numpy as np
 
 data = np.load("data/data_train.npy")

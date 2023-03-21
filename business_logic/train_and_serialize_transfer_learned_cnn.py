@@ -2,8 +2,8 @@ import numpy as np
 import keras
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
-from preprocessing import augment, preprocess
-from model_evaluation import PerfEvalCustomCallback, evaluate_model
+from business_logic.preprocessing import augment, preprocess
+from business_logic.model_evaluation import PerfEvalCustomCallback, evaluate_model
 
 
 data = np.load("data/data_train.npy")
